@@ -1,0 +1,44 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0px 2px 64px rgba(4, 245, 104, 0.9);
+  }
+  
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(90px, auto);
+    height: 150px;
+  } 
+  
+  input {
+    height: 90px;
+    width: 390px;
+    font-size: 30px;
+    font-weight: 400;
+    box-shadow: 0px 2px 64px rgba(184, 231, 196, 0.9);
+  }
+  
+  #clear {
+    grid-column: 1/3;
+    grid-row: 1;
+    color: rgb(233, 10, 10);
+  }
+  
+  #result {
+    grid-column: 3/5;
+    grid-row: 5;
+    color: rgb(0, 41, 128);
+  }
+  button {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  * {
+    background-color: rgb(15, 99, 4);
+  }
